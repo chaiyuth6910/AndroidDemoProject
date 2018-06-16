@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidDemoProject</string>
+    <string name="baseURL">http://www.itgenius.co.th/payment</string>
+</resources>
