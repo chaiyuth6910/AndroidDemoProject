@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
         GlobalSetting globalSetting = (GlobalSetting) getApplicationContext();
 
-        Toast.makeText(getApplicationContext(), GlobalConfig.GET_BASE_URL, Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), getServerUrl(ServerUrl.BASE_URL), Toast.LENGTH_LONG).show();
 
         Button btnGo = findViewById(R.id.btnGo);
 
@@ -30,7 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    public String getConfigInfo(String url){
-//        return url;
-//    }
+    public String getServerUrl(String url){
+        return url;
+    }
+
 }
